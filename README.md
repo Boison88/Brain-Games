@@ -3,4 +3,6 @@
 
 <a href="https://codeclimate.com/github/Boison88/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/f991ad98e5296b448aef/maintainability" /></a>
 
-https://asciinema.org/a/eaaOMBQJI1z1YmuoCEYKdP1eH
+BRAIN-EVEN
+<a href="https://asciinema.org/a/eaaOMBQJI1z1YmuoCEYKdP1eH" target="_blank"><img src="https://asciinema.org/a/eaaOMBQJI1z1YmuoCEYKdP1eH.svg" /></a>
+
