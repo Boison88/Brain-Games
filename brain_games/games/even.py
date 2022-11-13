@@ -1,31 +1,16 @@
-import random
-import prompt
+"""Function of the game 'Brain-even'."""
+
+from random import randint
+GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def is_even():
+def get_solution():
+    x = randint(1, 100)
+    question = str(x)
 
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    if x % 2 == 0:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return question, correct_answer
 
-    correct_answers = 0
-
-    while correct_answers < 3:
-        random_number = random.randint(1, 100)
-        print(f'Question: {random_number}')
-        answer = input('Your answer: ')
-
-        if random_number % 2 == 0 and answer.lower() == 'yes':
-            print('Correct!')
-            correct_answers += 1
-        elif random_number % 2 == 0 and answer.lower() != 'yes':
-            print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'\nLet\'s try again, {name}!")
-            break
-        elif random_number % 2 != 0 and answer.lower() == 'no':
-            print('Correct!')
-            correct_answers += 1
-        elif random_number % 2 != 0 and answer.lower() != 'no':
-            print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'\nLet\'s try again, {name}!")
-            break
-        if correct_answers == 3:
-            print(f'Congratulations, {name}!')

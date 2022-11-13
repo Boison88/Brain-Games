@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
-from brain_games.games.even import is_even
+"""Script for start the game 'Brain-even."""
+
+from brain_games.game_engine import welcome_user
+from brain_games.games import even
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    is_even()
+    welcome_user(even)
 
 
 if __name__ == '__main__':
     main()
+
