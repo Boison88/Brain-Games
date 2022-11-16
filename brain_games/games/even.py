@@ -13,4 +13,3 @@ def get_solution():
     else:
         correct_answer = 'no'
     return question, correct_answer
-

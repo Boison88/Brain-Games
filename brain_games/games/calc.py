@@ -14,4 +14,3 @@ def get_solution():
     question = (str(x) + ' ' + make_choice + ' ' + str(y))
     correct_answer = str(operation[make_choice])
     return question, correct_answer
-

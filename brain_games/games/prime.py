@@ -4,6 +4,7 @@ from random import randint
 
 GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def get_solution():
     x = randint(0, 100)
     question = str(x)
@@ -18,4 +19,3 @@ def is_prime(x):
         if x % i == 0:
             return 'no'
     return 'yes'
-
