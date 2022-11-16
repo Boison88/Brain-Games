@@ -19,9 +19,8 @@ def welcome_user(game):
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(."
-                f"Correct answer was '{correct_answer}'.\n"
-                f"Let\'s try again, {name}!")
+                  f"Correct answer was '{correct_answer}'.\n"
+                  f"Let\'s try again, {name}!")
             break
     if count == 3:
         print(f'Congratulations, {name}!')
-
