@@ -21,4 +21,3 @@ def is_prime(x):
         if x % i == 0:
             return 'no'
     return 'yes'
-

@@ -25,4 +25,3 @@ def welcome_and_start(game):
             break
     else:
         print(f'Congratulations, {name}!')
-

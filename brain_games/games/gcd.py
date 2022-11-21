@@ -18,4 +18,3 @@ def get_solution():
 
 def gcd(a, b):
     return math.gcd(a, b)
-

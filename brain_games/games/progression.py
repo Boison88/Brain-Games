@@ -28,4 +28,3 @@ def progression():
     while len(numbers) < LIST_LENGTH:
         numbers.append(numbers[-1] + step)
     return numbers
-
