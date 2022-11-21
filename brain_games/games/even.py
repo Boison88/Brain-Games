@@ -1,11 +1,14 @@
 """Function of the game 'Brain-even'."""
 
 from random import randint
+
 GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 
 def get_solution():
-    x = randint(1, 100)
+    x = randint(MIN_NUMBER, MAX_NUMBER)
     question = str(x)
 
     if x % 2 == 0:

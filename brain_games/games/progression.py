@@ -4,6 +4,11 @@ from random import randint
 from random import choice
 
 GAME_RULES = 'What number is missing in the progression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 20
+MIN_STEP = 1
+MAX_STEP = 10
+LIST_LENGTH = 10
 
 
 def get_solution():
@@ -16,10 +21,11 @@ def get_solution():
 
 
 def progression():
-    first_num = randint(0, 10)
-    step = randint(1, 10)
+    first_num = randint(MIN_NUMBER, MAX_NUMBER)
+    step = randint(MIN_STEP, MAX_STEP)
     numbers = [first_num]
 
-    while len(numbers) < 10:
+    while len(numbers) < LIST_LENGTH:
         numbers.append(numbers[-1] + step)
     return numbers
+

@@ -3,10 +3,12 @@
 from random import randint
 
 GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 
 def get_solution():
-    x = randint(0, 100)
+    x = randint(MIN_NUMBER, MAX_NUMBER)
     question = str(x)
     correct_answer = is_prime(x)
     return question, correct_answer
@@ -19,3 +21,4 @@ def is_prime(x):
         if x % i == 0:
             return 'no'
     return 'yes'
+

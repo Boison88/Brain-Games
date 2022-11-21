@@ -2,11 +2,10 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = ""
+classifiers = ["Programming language :: Python :: 3.8"]
 authors = ["boison88 <boison88@mail.ru>"]
 readme = "README.md"
-packages = [
-  { include = "brain_games" },
-]
+packages = [{ include = "brain_games" },]
 
 [tool.poetry.dependencies]
 python = "^3.8"
