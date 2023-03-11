@@ -1,8 +1,10 @@
-### Study project #1 — «Brain Games»
+## Study project #1 — «Brain Games»
 [![Actions Status](https://github.com/Boison88/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Boison88/python-project-49/actions)
 <a href="https://codeclimate.com/github/Boison88/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/f991ad98e5296b448aef/maintainability" /></a>
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга.  
+Этот репозиторий был создан в рамках [учебного проекта Хекслет](https://ru.hexlet.io/programs/python/projects/49).  
+*Игры разума* — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга.  
+  
 Для запуска необходимо произвести установку приложения (make package-install), написать название игры и следовать инструкциям.
 
 • BRAIN-EVEN – Определение четного числа  
